@@ -1,0 +1,86 @@
+body {background-color: grey;}
+
+td {
+  border: 2px  solid rgba(255, 255, 255, 0.342); }
+p{color:white;
+    }
+h1{color:white;
+font-size: 60px;
+text-align: center;}
+
+ 
+
+
+
+h3 {color:white
+}
+
+/* name container wastes but used for everrything, used  multiple times in the page, used  for the backgroud*/
+.ContainerWastes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+  }
+  /*used for the   titles  on each page to make sure it stays centered in the grid  */
+  .Title{ grid-column: 1 / 5;
+    font-size: 1;}
+
+    /* used for just about evrything  else, main text determines size and also makes sure it alligns to center of the box*/
+  .itemsOfWastes {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+font-size: 30px;
+    text-align: center;
+
+
+  }
+
+
+
+
+
+
+
+
+
+.drop{
+    background-color: black;
+  color: red;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  column-count: 1; 
+
+}
+
+.dropdown {
+position: relative;
+
+Display: inline-block
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .drop {background-color: black;}

@@ -1,0 +1,96 @@
+body {background-color: grey;}
+
+
+p{color:white}
+h1{color:white}
+ 
+
+td {
+  border: 2px  solid rgba(255, 255, 255, 0.342); }
+
+h3 {color:white}
+
+
+ /*sets amouhnt of columns and nothign else  */
+.makethemcolumn4  {
+    column-count: 4;
+  }
+
+
+
+
+  .makethemcolumn2  {
+    column-count: 2;
+  }
+
+
+  @media only screen and (min-width: 600px) {/* reacts when the scren is large*/
+  body {background-color: grey;}
+
+
+  p{color:white}
+  h1{color:white}
+   
+  
+  td {
+    border: 2px  solid rgba(255, 255, 255, 0.342); }
+  
+  h3 {color:white}
+}
+
+
+@media only screen and (max-width: 600px)/* reacts  when the screen is small*/
+ {
+  body {background-color: grey;}
+
+
+  p{color:white;font-size: 8;}
+  h1{color:white; font-size: 12 }
+   
+  
+  td {
+    border: 2px  solid rgba(255, 255, 255, 0.342); }
+  
+  h3 {color:white}
+}
+
+
+.drop{
+    background-color: black;
+  color: red;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  column-count: 1; 
+
+}
+
+.dropdown {
+position: relative;
+
+Display: inline-block
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .drop {background-color: black;}
