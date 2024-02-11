@@ -1,0 +1,22 @@
+Questions 
+
+
+question 3 answers 
+The gcf is one 
+
+
+
+
+question 4 
+
+# 8723782367 base 9 = 14c88a65b in base 15 
+#  123456789ABCDEF1 base 16 = 1311768467463790321 base 10
+# 11111110111011011011111011101111 base 2 = DCCB0CCD base 16
+
+
+
+
+question 5 
+
+38,9,54
+16,3,26
